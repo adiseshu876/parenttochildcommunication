@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'parenttochildcommunication';
+  fromParent ='welcome to angular from parent'
+msg: any;
+  // fromParent = [
+  //   {id:1,name:'angular',author:'seshu'},
+  //   {id:1,name:'angular',author:'seshu'},
+  //   {id:1,name:'angular',author:'seshu'},
+  //   {id:1,name:'angular',author:'seshu'},
+  // ]
 }
